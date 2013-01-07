@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
+gem 'bootstrap-sass', '2.1'
 
 group :production do
   gem 'pg', '0.12.2'
