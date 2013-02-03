@@ -16,5 +16,7 @@ include SessionsHelper
     end
     
     def destroy
+      sign_out
+      redirect_to_root_url
     end
 end
